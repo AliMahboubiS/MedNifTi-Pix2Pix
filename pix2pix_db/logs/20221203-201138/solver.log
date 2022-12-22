@@ -1,0 +1,228 @@
+2022-12-03 20:11:38,043:solver:gpu_index: 0
+2022-12-03 20:11:38,043:solver:batch_size: 1
+2022-12-03 20:11:38,044:solver:dataset: spine06
+2022-12-03 20:11:38,044:solver:is_train: True
+2022-12-03 20:11:38,044:solver:learning_rate: 0.0002
+2022-12-03 20:11:38,044:solver:beta1: 0.5
+2022-12-03 20:11:38,045:solver:iters: 200000
+2022-12-03 20:11:38,045:solver:print_freq: 100
+2022-12-03 20:11:38,045:solver:save_freq: 10000
+2022-12-03 20:11:38,045:solver:sample_freq: 500
+2022-12-03 20:11:38,046:solver:load_model: None
+2022-12-03 20:48:20,452:solver: [*] Model saved! Iter: 9999
+2022-12-03 22:07:15,617:solver:gpu_index: 0
+2022-12-03 22:07:15,617:solver:batch_size: 1
+2022-12-03 22:07:15,617:solver:dataset: spine06
+2022-12-03 22:07:15,617:solver:is_train: True
+2022-12-03 22:07:15,617:solver:learning_rate: 0.0002
+2022-12-03 22:07:15,617:solver:beta1: 0.5
+2022-12-03 22:07:15,617:solver:iters: 200000
+2022-12-03 22:07:15,618:solver:print_freq: 100
+2022-12-03 22:07:15,618:solver:save_freq: 10000
+2022-12-03 22:07:15,618:solver:sample_freq: 500
+2022-12-03 22:07:15,618:solver:load_model: 20221203-201138
+2022-12-03 22:07:22,876:solver: [*] Reading checkpoint...
+2022-12-03 22:07:23,843:solver: [*] Load iter_time: 9999
+2022-12-03 22:07:35,942:solver: [*] Model saved! Iter: 9999
+2022-12-03 22:08:05,031:solver:gpu_index: 0
+2022-12-03 22:08:05,031:solver:batch_size: 1
+2022-12-03 22:08:05,032:solver:dataset: spine06
+2022-12-03 22:08:05,032:solver:is_train: True
+2022-12-03 22:08:05,032:solver:learning_rate: 0.0002
+2022-12-03 22:08:05,032:solver:beta1: 0.5
+2022-12-03 22:08:05,032:solver:iters: 200000
+2022-12-03 22:08:05,032:solver:print_freq: 100
+2022-12-03 22:08:05,032:solver:save_freq: 5000
+2022-12-03 22:08:05,032:solver:sample_freq: 500
+2022-12-03 22:08:05,032:solver:load_model: 20221203-201138
+2022-12-03 22:08:12,439:solver: [*] Reading checkpoint...
+2022-12-03 22:08:13,375:solver: [*] Load iter_time: 9999
+2022-12-03 22:08:25,151:solver: [*] Model saved! Iter: 9999
+2022-12-03 22:26:31,815:solver: [*] Model saved! Iter: 14999
+2022-12-03 22:44:24,662:solver: [*] Model saved! Iter: 19999
+2022-12-03 23:02:31,514:solver: [*] Model saved! Iter: 24999
+2022-12-04 00:45:01,969:solver:gpu_index: 0
+2022-12-04 00:45:01,969:solver:batch_size: 1
+2022-12-04 00:45:01,969:solver:dataset: spine06
+2022-12-04 00:45:01,969:solver:is_train: True
+2022-12-04 00:45:01,969:solver:learning_rate: 0.0002
+2022-12-04 00:45:01,969:solver:beta1: 0.5
+2022-12-04 00:45:01,970:solver:iters: 200000
+2022-12-04 00:45:01,970:solver:print_freq: 100
+2022-12-04 00:45:01,970:solver:save_freq: 5000
+2022-12-04 00:45:01,970:solver:sample_freq: 500
+2022-12-04 00:45:01,970:solver:load_model: 20221203-201138
+2022-12-04 00:45:09,100:solver: [*] Reading checkpoint...
+2022-12-04 00:45:10,076:solver: [*] Load iter_time: 24999
+2022-12-04 00:45:21,723:solver: [*] Model saved! Iter: 24999
+2022-12-04 01:03:31,937:solver: [*] Model saved! Iter: 29999
+2022-12-04 01:21:47,670:solver: [*] Model saved! Iter: 34999
+2022-12-04 01:40:03,882:solver: [*] Model saved! Iter: 39999
+2022-12-05 16:10:51,347:solver: [*] Reading checkpoint...
+2022-12-05 16:10:52,408:solver: [*] Load iter_time: 39999
+2022-12-05 16:10:52,408:solver: [*] Load SUCCESS!
+2022-12-05 16:20:45,866:solver: [*] Reading checkpoint...
+2022-12-05 16:20:46,764:solver: [*] Load iter_time: 39999
+2022-12-05 16:20:46,764:solver: [*] Load SUCCESS!
+2022-12-05 16:21:32,794:solver: [*] Reading checkpoint...
+2022-12-05 16:21:33,708:solver: [*] Load iter_time: 39999
+2022-12-05 16:21:33,708:solver: [*] Load SUCCESS!
+2022-12-05 16:24:41,682:solver: [*] Reading checkpoint...
+2022-12-05 16:24:42,607:solver: [*] Load iter_time: 39999
+2022-12-05 16:24:42,607:solver: [*] Load SUCCESS!
+2022-12-05 16:25:42,552:solver: [*] Reading checkpoint...
+2022-12-05 16:25:43,456:solver: [*] Load iter_time: 39999
+2022-12-05 16:25:43,456:solver: [*] Load SUCCESS!
+2022-12-05 16:25:48,833:solver:Avg. PT: 22.29 msec.
+2022-12-11 03:02:18,018:solver: [*] Reading checkpoint...
+2022-12-11 03:02:25,491:solver: [*] Load iter_time: 39999
+2022-12-11 03:02:25,491:solver: [*] Load SUCCESS!
+2022-12-11 03:02:39,181:solver:Avg. PT: 60.44 msec.
+2022-12-11 03:05:08,378:solver: [*] Reading checkpoint...
+2022-12-11 03:05:09,367:solver: [*] Load iter_time: 39999
+2022-12-11 03:05:09,367:solver: [*] Load SUCCESS!
+2022-12-11 03:05:13,737:solver:Avg. PT: 26.56 msec.
+2022-12-12 22:05:22,768:solver: [*] Reading checkpoint...
+2022-12-12 22:05:25,636:solver: [*] Load iter_time: 39999
+2022-12-12 22:05:25,637:solver: [*] Load SUCCESS!
+2022-12-12 22:07:33,633:solver: [*] Reading checkpoint...
+2022-12-12 22:07:35,155:solver: [*] Load iter_time: 39999
+2022-12-12 22:07:35,156:solver: [*] Load SUCCESS!
+2022-12-12 22:09:28,464:solver: [*] Reading checkpoint...
+2022-12-12 22:09:29,961:solver: [*] Load iter_time: 39999
+2022-12-12 22:09:29,963:solver: [*] Load SUCCESS!
+2022-12-12 22:12:36,576:solver: [*] Reading checkpoint...
+2022-12-12 22:12:38,122:solver: [*] Load iter_time: 39999
+2022-12-12 22:12:38,123:solver: [*] Load SUCCESS!
+2022-12-12 22:12:57,281:solver:Avg. PT: 126.13 msec.
+2022-12-12 22:14:03,979:solver: [*] Reading checkpoint...
+2022-12-12 22:14:05,351:solver: [*] Load iter_time: 39999
+2022-12-12 22:14:05,352:solver: [*] Load SUCCESS!
+2022-12-12 22:14:29,839:solver:Avg. PT: 141.46 msec.
+2022-12-12 22:22:40,497:solver: [*] Reading checkpoint...
+2022-12-12 22:22:42,053:solver: [*] Load iter_time: 39999
+2022-12-12 22:22:42,054:solver: [*] Load SUCCESS!
+2022-12-12 22:23:06,553:solver:Avg. PT: 137.84 msec.
+2022-12-12 22:25:35,010:solver: [*] Reading checkpoint...
+2022-12-12 22:25:36,420:solver: [*] Load iter_time: 39999
+2022-12-12 22:25:36,421:solver: [*] Load SUCCESS!
+2022-12-12 22:25:53,732:solver:Avg. PT: 122.61 msec.
+2022-12-12 22:29:18,498:solver: [*] Reading checkpoint...
+2022-12-12 22:29:19,891:solver: [*] Load iter_time: 39999
+2022-12-12 22:29:19,892:solver: [*] Load SUCCESS!
+2022-12-12 22:29:39,139:solver:Avg. PT: 122.20 msec.
+2022-12-12 23:47:34,500:solver: [*] Reading checkpoint...
+2022-12-12 23:47:37,665:solver: [*] Load iter_time: 39999
+2022-12-12 23:47:37,666:solver: [*] Load SUCCESS!
+2022-12-15 21:23:34,864:solver: [*] Reading checkpoint...
+2022-12-15 21:23:39,124:solver: [*] Load iter_time: 39999
+2022-12-15 21:23:39,125:solver: [*] Load SUCCESS!
+2022-12-15 21:23:55,853:solver:Avg. PT: 119.54 msec.
+2022-12-15 22:14:17,719:solver: [*] Reading checkpoint...
+2022-12-15 22:14:20,509:solver: [*] Load iter_time: 39999
+2022-12-15 22:14:20,510:solver: [*] Load SUCCESS!
+2022-12-15 22:14:39,047:solver:Avg. PT: 131.95 msec.
+2022-12-15 22:16:58,964:solver: [*] Reading checkpoint...
+2022-12-15 22:17:05,119:solver: [*] Load iter_time: 39999
+2022-12-15 22:17:05,121:solver: [*] Load SUCCESS!
+2022-12-15 22:17:42,570:solver:Avg. PT: 269.29 msec.
+2022-12-21 15:21:09,623:solver: [*] Reading checkpoint...
+2022-12-21 15:21:11,118:solver: [*] Load iter_time: 39999
+2022-12-21 15:21:11,118:solver: [*] Load SUCCESS!
+2022-12-21 15:21:23,670:solver:Avg. PT: 91.60 msec.
+2022-12-21 15:26:42,695:solver: [*] Reading checkpoint...
+2022-12-21 15:26:43,863:solver: [*] Load iter_time: 39999
+2022-12-21 15:26:43,863:solver: [*] Load SUCCESS!
+2022-12-21 15:26:56,201:solver:Avg. PT: 89.94 msec.
+2022-12-21 15:28:47,199:solver: [*] Reading checkpoint...
+2022-12-21 15:28:48,241:solver: [*] Load iter_time: 39999
+2022-12-21 15:28:48,242:solver: [*] Load SUCCESS!
+2022-12-21 15:29:01,283:solver:Avg. PT: 95.57 msec.
+2022-12-21 15:33:15,985:solver: [*] Reading checkpoint...
+2022-12-21 15:33:17,048:solver: [*] Load iter_time: 39999
+2022-12-21 15:33:17,049:solver: [*] Load SUCCESS!
+2022-12-21 15:33:29,507:solver:Avg. PT: 91.33 msec.
+2022-12-21 15:41:30,669:solver: [*] Reading checkpoint...
+2022-12-21 15:41:31,733:solver: [*] Load iter_time: 39999
+2022-12-21 15:41:31,733:solver: [*] Load SUCCESS!
+2022-12-21 15:41:43,734:solver:Avg. PT: 88.34 msec.
+2022-12-21 15:42:44,212:solver: [*] Reading checkpoint...
+2022-12-21 15:42:45,286:solver: [*] Load iter_time: 39999
+2022-12-21 15:42:45,288:solver: [*] Load SUCCESS!
+2022-12-21 15:42:58,209:solver:Avg. PT: 95.31 msec.
+2022-12-21 15:43:02,169:solver: [*] Reading checkpoint...
+2022-12-21 15:43:03,431:solver: [*] Load iter_time: 39999
+2022-12-21 15:43:03,431:solver: [*] Load SUCCESS!
+2022-12-21 15:46:32,660:solver: [*] Reading checkpoint...
+2022-12-21 15:46:33,749:solver: [*] Load iter_time: 39999
+2022-12-21 15:46:33,750:solver: [*] Load SUCCESS!
+2022-12-21 15:46:46,464:solver:Avg. PT: 93.87 msec.
+2022-12-21 15:48:14,336:solver: [*] Reading checkpoint...
+2022-12-21 15:48:15,400:solver: [*] Load iter_time: 39999
+2022-12-21 15:48:15,401:solver: [*] Load SUCCESS!
+2022-12-21 15:48:27,470:solver:Avg. PT: 89.41 msec.
+2022-12-21 15:48:30,695:solver: [*] Reading checkpoint...
+2022-12-21 15:48:31,514:solver: [*] Load iter_time: 39999
+2022-12-21 15:48:31,515:solver: [*] Load SUCCESS!
+2022-12-21 15:50:54,159:solver: [*] Reading checkpoint...
+2022-12-21 15:50:55,482:solver: [*] Load iter_time: 39999
+2022-12-21 15:50:55,483:solver: [*] Load SUCCESS!
+2022-12-21 15:51:08,244:solver:Avg. PT: 94.31 msec.
+2022-12-21 15:51:11,893:solver: [*] Reading checkpoint...
+2022-12-21 15:51:12,837:solver: [*] Load iter_time: 39999
+2022-12-21 15:51:12,838:solver: [*] Load SUCCESS!
+2022-12-21 15:52:09,997:solver: [*] Reading checkpoint...
+2022-12-21 15:52:11,105:solver: [*] Load iter_time: 39999
+2022-12-21 15:52:11,106:solver: [*] Load SUCCESS!
+2022-12-21 15:52:23,338:solver:Avg. PT: 90.58 msec.
+2022-12-21 15:52:44,369:solver: [*] Reading checkpoint...
+2022-12-21 15:52:45,486:solver: [*] Load iter_time: 39999
+2022-12-21 15:52:45,487:solver: [*] Load SUCCESS!
+2022-12-21 15:52:58,321:solver:Avg. PT: 95.03 msec.
+2022-12-21 15:53:01,097:solver: [*] Reading checkpoint...
+2022-12-21 15:53:01,939:solver: [*] Load iter_time: 39999
+2022-12-21 15:53:01,940:solver: [*] Load SUCCESS!
+2022-12-21 15:56:36,300:solver: [*] Reading checkpoint...
+2022-12-21 15:56:37,370:solver: [*] Load iter_time: 39999
+2022-12-21 15:56:37,371:solver: [*] Load SUCCESS!
+2022-12-21 15:56:49,892:solver:Avg. PT: 92.72 msec.
+2022-12-21 15:56:53,444:solver: [*] Reading checkpoint...
+2022-12-21 15:56:54,387:solver: [*] Load iter_time: 39999
+2022-12-21 15:56:54,387:solver: [*] Load SUCCESS!
+2022-12-21 15:59:37,897:solver: [*] Reading checkpoint...
+2022-12-21 15:59:38,965:solver: [*] Load iter_time: 39999
+2022-12-21 15:59:38,965:solver: [*] Load SUCCESS!
+2022-12-21 15:59:51,058:solver:Avg. PT: 89.75 msec.
+2022-12-21 16:01:47,477:solver: [*] Reading checkpoint...
+2022-12-21 16:01:48,509:solver: [*] Load iter_time: 39999
+2022-12-21 16:01:48,510:solver: [*] Load SUCCESS!
+2022-12-21 16:02:00,332:solver:Avg. PT: 87.76 msec.
+2022-12-21 16:02:52,543:solver: [*] Reading checkpoint...
+2022-12-21 16:02:53,552:solver: [*] Load iter_time: 39999
+2022-12-21 16:02:53,553:solver: [*] Load SUCCESS!
+2022-12-21 16:03:05,499:solver:Avg. PT: 88.40 msec.
+2022-12-21 16:05:55,047:solver: [*] Reading checkpoint...
+2022-12-21 16:05:56,036:solver: [*] Load iter_time: 39999
+2022-12-21 16:05:56,037:solver: [*] Load SUCCESS!
+2022-12-21 16:06:07,991:solver:Avg. PT: 88.50 msec.
+2022-12-21 16:06:23,467:solver: [*] Reading checkpoint...
+2022-12-21 16:06:24,399:solver: [*] Load iter_time: 39999
+2022-12-21 16:06:24,401:solver: [*] Load SUCCESS!
+2022-12-21 16:09:49,099:solver: [*] Reading checkpoint...
+2022-12-21 16:09:50,144:solver: [*] Load iter_time: 39999
+2022-12-21 16:09:50,144:solver: [*] Load SUCCESS!
+2022-12-21 16:10:01,848:solver:Avg. PT: 86.85 msec.
+2022-12-21 16:10:04,862:solver: [*] Reading checkpoint...
+2022-12-21 16:10:05,701:solver: [*] Load iter_time: 39999
+2022-12-21 16:10:05,702:solver: [*] Load SUCCESS!
+2022-12-21 16:11:17,424:solver: [*] Reading checkpoint...
+2022-12-21 16:11:18,499:solver: [*] Load iter_time: 39999
+2022-12-21 16:11:18,500:solver: [*] Load SUCCESS!
+2022-12-21 16:11:30,388:solver:Avg. PT: 88.00 msec.
+2022-12-21 16:12:06,476:solver: [*] Reading checkpoint...
+2022-12-21 16:12:07,286:solver: [*] Load iter_time: 39999
+2022-12-21 16:12:07,287:solver: [*] Load SUCCESS!
+2022-12-21 16:14:46,923:solver: [*] Reading checkpoint...
+2022-12-21 16:14:48,151:solver: [*] Load iter_time: 39999
+2022-12-21 16:14:48,152:solver: [*] Load SUCCESS!
+2022-12-21 16:15:00,567:solver:Avg. PT: 91.73 msec.

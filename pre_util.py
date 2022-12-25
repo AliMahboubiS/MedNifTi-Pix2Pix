@@ -83,6 +83,14 @@ def creat_nii(name_patient):
     sitk.WriteImage(vol, os.path.abspath('nifti_res/pred_'+str(name_patient)))
     shutil.rmtree(os.path.abspath('dataset'))
 
+def add_header(name_patient):
+    img = nib.load(os.path.abspath('pix2pix_db/nifti_sample/'+str(name_patient)))
+    gen_img = nib.load(os.path.abspath('nifti_res/pred_'+str(name_patient)))
+    data   = gen_img.get_data()
+    # header and affine(about spaces and image positions) from CT origin file 
+    clipped_img = nib.Nifti1Image(data, img.affine, img.header)
+    nib.save(clipped_img, 'nifti_res/pred_'+str(name_patient))
+
 if __name__ ==  '__main__':
 
     # use for test file one sample

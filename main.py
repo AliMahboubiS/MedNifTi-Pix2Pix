@@ -40,6 +40,7 @@ def main(_):
             data_writer(os.path.abspath("dataset/ready_oneSample"),"test")
             solver.test()
             pu.creat_nii(name_patient)
+            pu.add_header(name_patient)
 
 if __name__ == '__main__':
     tf.app.run()

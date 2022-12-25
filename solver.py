@@ -173,8 +173,10 @@ class Solver(object):
             coord.request_stop()
         finally:
             # when done, ask the threads to stop
+            # uncomment for one file and comment for run mutiple files
             coord.request_stop()
             coord.join(threads)
+            # index =1
 
 
     def sample(self, iter_time):

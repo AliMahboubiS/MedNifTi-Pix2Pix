@@ -15,6 +15,7 @@ An in-depth paragraph about your project and overview of use.
 *imageio==2.22.4
 *matplotlib==3.5.3
 *nibabel==4.0.2
+
 *numpy==1.21.6
 *opencv_python==4.1.0.25
 *Pillow==9.3.0

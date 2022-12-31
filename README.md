@@ -9,9 +9,19 @@ An in-depth paragraph about your project and overview of use.
 ## Getting Started
 
 ### Dependencies
-
 * Describe any prerequisites, libraries, OS version, etc., needed before installing program.
 * ex. Windows 10
+
+*imageio==2.22.4
+*matplotlib==3.5.3
+*nibabel==4.0.2
+
+*numpy==1.21.6
+*opencv_python==4.1.0.25
+*Pillow==9.3.0
+*scipy==1.7.3
+*SimpleITK==2.2.1
+*tensorflow==1.14.0
 
 ### Installing
 

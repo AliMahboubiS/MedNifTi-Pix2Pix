@@ -110,8 +110,8 @@ class Solver(object):
                 print(' [!] Load Failed...\n')
 
         # threads for tfrecord
-        coord = tf.train.Coordinator()
-        threads = tf.train.start_queue_runners(sess=self.sess, coord=coord)
+        coord = tf.compat.v1.train.Coordinator()
+        threads = tf.compat.v1.train.start_queue_runners(sess=self.sess, coord=coord)
 
         try:
             while self.iter_time < self.flags.iters:
@@ -139,7 +139,7 @@ class Solver(object):
             coord.request_stop()
             coord.join(threads)
 
-    def test(self):
+    def test(self, sum):
         if self.load_model():
             logger.info(' [*] Load SUCCESS!')
         else:
@@ -152,7 +152,7 @@ class Solver(object):
         iter_time = 0
         total_time = 0.
         try:
-            while iter_time < self.dataset.num_tests:
+            while iter_time < sum:
                 print(iter_time)
 
                 tic = time.time()
@@ -163,7 +163,7 @@ class Solver(object):
                                       self.ct_out_dir)
                 iter_time += 1
 
-            logger.info('Avg. PT: {:.2f} msec.'.format(total_time / self.dataset.num_tests * 1000.))
+            logger.info('Avg. PT: {:.2f} msec.'.format(total_time / sum * 1000.))
 
         except KeyboardInterrupt:
             coord.request_stop()
@@ -171,12 +171,12 @@ class Solver(object):
             coord.request_stop(e)
         except tf.errors.OutOfRangeError:
             coord.request_stop()
-        finally:
-            # when done, ask the threads to stop
-            # uncomment for one file and comment for run mutiple files
-            coord.request_stop()
-            coord.join(threads)
-            # index =1
+        # finally:
+        #     # when done, ask the threads to stop
+        #     # uncomment for one file and comment for run mutiple files
+        #     coord.request_stop()
+        #     coord.join(threads)
+        #     # index =1
 
 
     def sample(self, iter_time):

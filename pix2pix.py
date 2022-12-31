@@ -182,7 +182,8 @@ class Pix2Pix(object):
                 np.squeeze(255. * utils.inverse_transform(imgs[idx]))
 
         img_name_ = img_name.astype('U26')[0]
-        img_name_ = img_name_ + ".jpg"
+        # img_name_ = img_name_ + ".jpg"
+        img_name_ = img_name_ 
         # save imgs on test folder
         cv2.imwrite(os.path.join(save_file, img_name_), canvas)
         # save imgs on eval folder

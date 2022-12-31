@@ -26,7 +26,7 @@ class SpineC2M(object):
         self.flags = flags
         self.name = 'day2night'
         self.image_size = (256, 256, 1)
-        self.num_tests = 129
+        self.num_tests = 7872
 
         # tfrecord path
         self.train_tfpath = os.path.abspath("pix2pix_db/tfrecords/train.tfrecords")

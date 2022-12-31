@@ -32,15 +32,23 @@ def main(_):
         solver.train()
     if not FLAGS.is_train:
         # create nii to predicted nii
+        idx = 0
+        name_patient_list = []
+        z_size = []
+        sum = 0
         file_name  = glob.glob(os.path.abspath("pix2pix_db/nifti_sample/*gz"))
         for f in file_name:
             f_split = f.split("\\")
             name_patient = f_split[-1]
-            pu.nii_to_sample(f, 'ct')
-            data_writer(os.path.abspath("dataset/ready_oneSample"),"test")
-            solver.test()
-            pu.creat_nii(name_patient)
-            pu.add_header(name_patient)
+            name_patient_list.append(name_patient)
+            z = pu.nii_to_sample(f, 'ct', idx)
+            z_size.append(z)
+            sum += z
+            idx += 1 
+        data_writer(os.path.abspath("dataset/ready_oneSample"),"test")
+        solver.test(sum)
+        pu.creat_nii(name_patient_list,z_size)
+        pu.add_header(name_patient_list)
 
 if __name__ == '__main__':
     tf.app.run()
